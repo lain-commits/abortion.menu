@@ -3,7 +3,8 @@
 }
 
 #container {
-    margin: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
     display: flex;
     align-items: safe center;
     flex-direction: column;
@@ -18,6 +19,7 @@
 body {
     background-color: #f8f9fc;
     font-family: Inter, Roboto, Helvetica Neue, Arial, sans-serif;
+    margin: 0;
 }
 
 th,td {
