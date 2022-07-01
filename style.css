@@ -1,0 +1,26 @@
+#main {
+    background-color: #fff;
+}
+
+#container {
+    margin: 20px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+#footer {
+    margin-top: 10px;
+    max-width: 1000px;
+    text-align: center;
+}
+
+body {
+    background-color: #f8f9fc;
+    font-family: Inter, Roboto, Helvetica Neue, Arial, sans-serif;
+}
+
+th,td {
+    padding: 8px 10px;
+    text-align: left;
+}
