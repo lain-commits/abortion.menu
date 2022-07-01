@@ -7,14 +7,16 @@
     <meta name="description" content="List of non-prescription abortion pill suppliers.">
     <link rel="icon" href="menu.svg" type="image/svg+xml">
     <link rel="stylesheet" href="style.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/sortable/0.8.0/js/sortable.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/sortable/0.8.0/css/sortable-theme-minimal.min.css">
 </head>
 <body>
     <div id="container">
     <div id="main">
-        <table>
+        <table id="mainTable" class="sortable-theme-minimal" data-sortable>
             <thead>
             <tr>
-                <th>Product</th>
+                <th data-sortable="false">Product</th>
                 <th>Compound</th>
                 <th>Price</th>
                 <th>$ / unit</th>
@@ -22,6 +24,8 @@
                 <th>Shipping</th>
                 <th>Abortifacient only?</th>
             </tr>
+            </thead>
+            <tbody>
             <tr>
                 <td>Misoprost 200mcg</td>
                 <td>Misoprostol</td>
@@ -184,7 +188,7 @@
                 <td>Ships from the EU</td>
                 <td>No</td>
             </tr>
-            </thead>
+            </tbody>
         </table>
     </div>
     <div id="footer">

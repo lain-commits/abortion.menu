@@ -5,7 +5,7 @@
 #container {
     margin: 20px;
     display: flex;
-    align-items: center;
+    align-items: safe center;
     flex-direction: column;
 }
 
