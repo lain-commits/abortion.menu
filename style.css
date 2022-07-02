@@ -1,12 +1,13 @@
 #main {
     background-color: #fff;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 #container {
     margin-top: 20px;
     margin-bottom: 20px;
     display: flex;
-    align-items: safe center;
     flex-direction: column;
 }
 
@@ -14,6 +15,8 @@
     margin-top: 10px;
     max-width: 1000px;
     text-align: center;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 body {
